@@ -1,0 +1,86 @@
+a {
+    color:#836628;
+  }
+
+.pho{
+    width: 490px;
+    height: 516px;
+}
+
+.textplus{
+    color:#705bcc;
+    font-size: 18px;
+    font-family: Bell MT;
+
+}
+.checked {
+    color:#e9830e;
+}
+
+.lt{
+    height: 158px;
+}
+
+.hh{
+    height: 348px;
+}
+.bod{
+    border-bottom: 1px solid rgb(180 181 194); 
+}
+.tt{
+    font-family:Segoe UI Emoji;
+}
+
+.pad{
+    padding: 14px;
+    padding-right: 28px;
+}
+
+.pad2{
+    padding: 0px 48px 0px 48px;
+}
+
+.pad3{
+    padding: 46px 40px 0px 42px;
+}
+.shad{
+     padding-top: 10px;
+}
+
+.shad:hover {
+    box-shadow: 5px 5px 5px rgb(48, 46, 46);
+}
+
+
+.head{
+    font-size:50px;
+    font-family: Bell MT;
+    color:#836628;
+}
+
+.col{
+    font-family: Bell MT;
+    color:#836628;
+    
+}
+
+.col1{
+    font-size:45px;
+    font-family: Bell MT;
+    color:#836628;
+    
+}
+.col2{
+    font-size:30px;
+    font-family: Bell MT;
+    color:#836628;
+    
+}
+
+
+.photo1:hover{
+    opacity: 0.5; 
+
+
+}
+

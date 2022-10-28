@@ -1,0 +1,155 @@
+
+a {
+    color:#5a4822;
+  }
+
+.img1{
+    width: 830px;
+    height: 512px;
+    margin-left: 140px;
+}
+
+.img2{
+    width: 830px;
+    height: 870px;
+    margin-left: 140px;
+}
+.img3{
+    padding: 0px 158px 0px 145px;
+}
+
+.img4{
+    width: 322px;
+    height: 470px;
+}
+.col{
+    font-family: Bell MT;
+    color:#28251f;
+    
+}
+
+.text-col{
+    font-family: Bell MT;
+    color:#5a4822;
+}
+
+.bod{
+    border-bottom: 1px solid rgb(180 181 194); 
+    
+
+}
+.tt{
+    font-family:Segoe UI Emoji;
+}
+
+.npad{
+    padding-left: 36px;
+
+}
+.pad{
+    padding: 0px 160px 0px 150px;
+}
+
+.pad2{
+    padding-right: 98px;
+    padding-left: 10px;
+}
+.pad3{
+    padding: 22px 140px 20px 136px;
+}
+
+.shad:hover {
+    box-shadow: 5px 5px 5px rgb(48, 46, 46);
+}
+.shad2:hover{
+    box-shadow: 6px 6px 5px #201f1f7d;
+}
+.col1{
+    font-size:45px;
+    font-family: Bell MT;
+    color:#836628;
+    
+}
+.col2{
+    font-size:30px;
+    font-family: Bell MT;
+    color:#836628;
+    
+}
+
+/* 5 star rating */
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+/* show rating */
+/*
+.rate1 {
+    float: left;
+    height: 46px;
+    
+}
+.rate1:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate1:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate1:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate1 > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate1:not(:checked) > label:hover,
+.rate1:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate1 > input:checked + label:hover,
+.rate1 > input:checked + label:hover ~ label,
+.rate1 > input:checked ~ label:hover,
+.rate1 > input:checked ~ label:hover ~ label,
+.rate1 > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+*/

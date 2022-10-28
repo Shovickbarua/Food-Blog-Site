@@ -1,0 +1,19 @@
+.brand-logo{
+    width: 100px;
+    height: 100px;
+}
+
+.pa{
+    padding: 46px 0px 6px 90px;
+}
+
+.pa2{
+    padding: 2px 55px 0px 6px;
+
+}
+
+body{
+    background-image: url(images/background3.jpg) !important;
+    background-size: cover !important;
+    
+}
